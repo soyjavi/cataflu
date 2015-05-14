@@ -1,0 +1,22 @@
+{
+  "name"            : "cataflu",
+  "version"         : "1.02.05",
+  "description"     : "...creating stuff for others",
+  "homepage"        : "http://soyjavi.com",
+  "author"          : "Javi Jimenez Villar",
+  "dependencies": {
+    "coffee-script" : "*"
+  },
+  "devDependencies" : {
+    "gulp"        : "*",
+    "gulp-coffee" : "*",
+    "gulp-concat" : "*",
+    "gulp-connect": "*",
+    "gulp-flatten": "*",
+    "gulp-header" : "*",
+    "gulp-stylus" : "*",
+    "gulp-uglify" : "*",
+    "gulp-util"   : "*",
+    "gulp-yml"    : "*"
+  }
+}
