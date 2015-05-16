@@ -17,12 +17,17 @@ body
         color                             : alpha(lighten(THEME, 50%), 25%)
     p
       opacity                             : 0.75
+      font-size                           : (2.5 * FONT_SIZE_NORMAL)
       &:not(:last-child)
         margin-bottom                     : SPACE
       &:last-child
         margin-bottom                     : 0
     .map
       border                              : none
+
+    .book
+      width                               : 22.5vw
+      border-radius                       : .5rem
 
     &:not(#intro)
       z-index                             : 2
